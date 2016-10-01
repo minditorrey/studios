@@ -1,0 +1,219 @@
+<!-- GENERAL -->
+
+body {
+	font-family: Raleway;
+}
+
+.navbar ul li a {
+	color: #fff;
+	font-family: raleway;
+}
+
+.navbar ul li a:hover {
+	color: #00c4cc;
+}
+
+.navbar ul li a:active {
+	color: #00c4cc;
+}
+
+.navbar-brand {
+	font-family: pacifico;
+	font-size: 1.5em;
+	color: #00c4cc;
+}
+
+span.white {
+	color: #fff;
+}
+
+.right {
+	float: right;
+	margin-right: 6%;
+}
+
+button {
+	background-color: #00c4cc;
+	color: #fff;
+	margin-top: 10%;
+}
+
+button a {
+	color: #fff;
+}
+
+button a:hover {
+	color: #fff;
+}
+
+#landing, #about, #packages {
+	background: url('../img/black_jeans.jpg') no-repeat center center fixed;
+	margin-top: -3%;
+	color: white;
+	text-align: center;
+	font-family: Raleway;
+}
+
+#landing .main {
+	padding: 25% 0 15% 0;
+}
+
+#landing h1 {
+	font-family: 'Baloo Bhai', cursive;
+	font-size: 3.5em;
+	line-height: 1.8em;
+	text-align: center;
+	color: #00C4CC;
+}
+
+#cta {
+	background: url('../img/surfing_sm.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	color: #00c4cc;
+  	margin: auto;
+
+}
+#cta h2 {
+	padding: 10% 0;
+	margin: -3% 0 0 0;
+}
+
+
+
+#reasons {
+	background: url('../img/black_jeans.jpg');
+	color: #fff;
+	padding: 3% 0 13% 0;
+	text-align: center;
+}
+
+#reasons h2 {
+	font-family: pacifico;
+	text-align: center;
+	font-weight: bold;
+	color: #00c4cc;
+}
+
+#reasons button {
+	margin-top: 5%;
+}
+
+#reasons .reason {
+	margin: 4%;
+}
+
+footer {
+	padding-top: 3%;
+	background-color: #00c4cc;
+	color: #fff;
+}
+
+footer .pacifico a {
+	font-family: pacifico;
+	font-size: 1.4em;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #00c4cc;
+}
+
+/*About Page*/
+
+#about {
+	background: url('../img/black_jeans.jpg') no-repeat center center fixed;
+	color: #fff;	
+}
+
+/*Services Page*/
+
+#packages {
+	text-align: center;
+	color: #373737;
+}
+
+
+#packages .thumbnail {
+	margin: 0 1.1%;
+	width: 31%;
+
+}
+
+#packages .top {
+	background-color: #00c4cc;
+	color: #fff;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+}
+
+#packages h1 {
+	margin-top: 15%;
+	margin-bottom: 3%;
+	color: #00c4cc;
+}
+
+#packages h3 {
+	color: #fff;
+}
+#packages h4 {
+	background-color: #00c4cc;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px 0;
+}
+
+#packages p {
+	text-align: left;
+	margin-left: 5px;
+	font-size: 1.4em;
+}
+
+#packages p i.fa {
+	color: #00c4cc;
+}
+
+#packages #services h1 {
+	margin-top: 5%;
+}
+
+#packages #services .thumbnail {
+	width: 30%;
+	margin-left: 35%;
+	margin-bottom: 5%;
+	padding-left: 20px;
+}
+
+/*Contact Page*/
+
+#contact, #resources {
+	background: url('../img/black_jeans.jpg') no-repeat center center fixed;
+	color: #fff;
+	padding: 3% 5% 13% 5%;
+
+}
+
+/*Media Queries*/
+
+@media screen and ( max-width: 1142px ) {
+	#packages #services .thumbnail {
+		width: 50%;
+		margin: 2% 25%;
+	}
+}
+
+@media screen and ( max-width: 768px ) {
+	#packages .thumbnail {
+		margin: 2% 2.5%;
+		width: 95%;
+	}
+	#packages #services .thumbnail {
+		width: 80%;
+		margin: 4% 10%;
+	}
+}
